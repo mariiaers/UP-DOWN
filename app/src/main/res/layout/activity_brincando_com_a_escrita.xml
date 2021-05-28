@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8EDCDC"
+            android:baselineAligned="false"
+            android:drawableTop="@drawable/borboleta_png"
+            android:paddingTop="20dp"
+            android:textColorHighlight="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/bvoltar"
+            android:layout_width="74dp"
+            android:layout_height="72dp"
+            android:background="@drawable/voltar"
+            android:clickable="true"
+            android:translationY="-80dp" />
+
+        <Button
+            android:id="@+id/botaoComoJogarSons"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#3F51B5"
+            android:gravity="center"
+            android:text="Toque no número que você deseja aprender:"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:translationY="-55dp" />
+
+        <Button
+            android:id="@+id/aprn1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+
+            android:background="#8EDCDC"
+            android:text="Aprendendo o numero 1"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:translationY="-40dp" />
+
+        <Button
+            android:id="@+id/aprn2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#F6FA52"
+            android:text="aprendendo o número 2"
+            android:textSize="20sp"
+            android:translationY="-30dp" />
+
+        <Button
+            android:id="@+id/aprn3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#8EDCDC"
+            android:text="Aprendendo o número 3"
+            android:textSize="20sp"
+            android:translationY="-22dp" />
+
+        <Button
+            android:id="@+id/aprn4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#F6FA52"
+            android:text="Aprendendo o número 4"
+            android:textSize="20sp"
+            android:translationY="-14dp" />
+
+        <Button
+            android:id="@+id/aprn5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#8EDCDC"
+            android:text="Aprendendo o número 5"
+            android:textSize="20sp"
+            android:translationY="-6dp" />
+
+        <Button
+            android:id="@+id/aprn6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#F6FA52"
+            android:text="Aprendendo o número 6"
+            android:textSize="20sp"
+            android:translationY="3dp" />
+
+        <Button
+            android:id="@+id/aprn7"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#8EDCDC"
+            android:text="Aprendendo o número 7"
+            android:textSize="20sp"
+            android:translationY="11dp" />
+
+        <Button
+            android:id="@+id/aprn8"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#F6FA52"
+            android:text="Aprendendo o número 8"
+            android:textSize="20sp"
+            android:translationY="20dp" />
+
+        <Button
+            android:id="@+id/aprn9"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#8EDCDC"
+            android:text="Aprendendo o número 9"
+            android:textSize="20sp"
+            android:translationY="28dp" />
+
+        <Button
+            android:id="@+id/aprn10"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#F6FA52"
+            android:text="Aprendendo o número 10"
+            android:textSize="20sp"
+            android:translationY="36dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+</ScrollView>
+

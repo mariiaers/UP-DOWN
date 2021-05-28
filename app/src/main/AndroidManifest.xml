@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.updown" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".BrincandoComOsSons" />
+        <activity android:name=".BrincandoComAEscrita" />
+        <activity android:name=".BrincandoComAContagem" />
+        <activity android:name=".BrincandoComAsFormas" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AprendendoN1" />
+        <activity android:name=".AprendendoN2" />
+        <activity android:name=".AprendendoN3" />
+        <activity android:name=".AprendendoN4" />
+        <activity android:name=".AprendendoN5" />
+        <activity android:name=".AprendendoN6" />
+        <activity android:name=".AprendendoN7" />
+        <activity android:name=".AprendendoN8" />
+        <activity android:name=".AprendendoN9" />
+        <activity android:name=".AprendendoN10" />
+        <activity android:name=".AprendendoN1P2" />
+        <activity android:name=".AprendendoN2P2" />
+        <activity android:name=".AprendendoN3P2" />
+        <activity android:name=".AprendendoN4P2" />
+        <activity android:name=".AprendendoN5P2" />
+        <activity android:name=".AprendendoN6P2" />
+        <activity android:name=".AprendendoN7P2" />
+        <activity android:name=".AprendendoN8P2" />
+        <activity android:name=".AprendendoN9P2" />
+        <activity android:name=".AprendendoN10P2" />
+        <activity android:name=".ConhecendoN1" />
+        <activity android:name=".ConhecendoN2" />
+        <activity android:name=".ConhecendoN3" />
+        <activity android:name=".ConhecendoN4" />
+        <activity android:name=".ConhecendoN5" />
+        <activity android:name=".ConhecendoN6" />
+        <activity android:name=".ConhecendoN7" />
+        <activity android:name=".ConhecendoN8" />
+        <activity android:name=".ConhecendoN9" />
+        <activity android:name=".ConhecendoN10" />
+        <activity android:name=".AbrirComoJogarComSons" />
+        <activity
+            android:name=".MenuLateralActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

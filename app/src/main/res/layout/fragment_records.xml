@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_records"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF7AD"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:translationY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="644dp"
+            android:layout_height="129dp"
+            android:background="#FFEB3B"
+            android:contentDescription="@string/todo"
+            android:translationX="-110dp"
+            android:translationY="0dp"
+            app:srcCompat="@drawable/trofeu_removebg_preview" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="200dp"
+            android:layout_height="53dp"
+            android:background="#FFED4D"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/records"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:translationX="75dp"
+            android:translationY="-90dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="179dp"
+            android:layout_height="52dp"
+            android:background="@drawable/botao2"
+            android:baselineAligned="false"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
+            android:text="@string/brincando_com_os_sons"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:translationX="-100dp"
+            android:translationY="-10dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="179dp"
+            android:layout_height="52dp"
+            android:background="@drawable/botao2"
+            android:baselineAligned="false"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
+            android:text="@string/brincando_com_a_escrita"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:translationX="100dp"
+            android:translationY="-62dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="179dp"
+            android:layout_height="52dp"
+            android:background="@drawable/botao2"
+            android:baselineAligned="false"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
+            android:text="@string/brincando_com_a_contagem"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:translationX="-100dp"
+            android:translationY="120dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="179dp"
+            android:layout_height="52dp"
+            android:background="@drawable/botao2"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
+            android:text="@string/brincando_com_as_formas"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:translationX="100dp"
+            android:translationY="68dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA7E75"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="367dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="#8EDCDC"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="@string/como_jogar_brincando_com_os_sons"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:translationX="-40dp"
+        android:translationY="40dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="122dp"
+        android:layout_height="118dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/todo"
+        android:translationX="30dp"
+        android:translationY="90dp"
+        app:srcCompat="@drawable/ic_aperte_o_botao"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="223dp"
+        android:layout_height="208dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/primeiro_passo_brincando_com_sons"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:translationX="160dp"
+        android:translationY="-5dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="128dp"
+        android:layout_height="115dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/todo"
+        android:translationX="20dp"
+        android:translationY="-50dp"
+        app:srcCompat="@drawable/audio_alto_falante" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="216dp"
+        android:layout_height="192dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/segundo_passo_brincando_com_sons"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:translationX="165dp"
+        android:translationY="-180dp" />
+</LinearLayout>

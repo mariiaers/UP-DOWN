@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Up&amp;Down</string>
+    <string name="como_jogar">Como Jogar?</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_Records" />
+    <string name="menu_records" />
+    <string name="menu_sobre" />
+    <string name="sobre">Sobre</string>
+    <string name="records">Records</string>
+    <string name="brincando_com_a_escrita">Brincando com a escrita</string>
+    <string name="brincando_com_os_sons">Brincando com os sons</string>
+    <string name="brincando_com_a_contagem">Brincando com a contagem</string>
+    <string name="brincando_com_as_formas">Brincando com as formas</string>
+    <string name="lapis">lapis</string>
+    <string name="menu">Menu</string>
+    <string name="sobreapp">UP&amp;DOWN, aplicação para auxílio da aprendizagem de matemática em crianças com Síndrome de Down. Uma aplicação com  atividades matemáticas para estimular o pensamento, raciocínio e outras habilidades. Essas atividades podem contribuir com o aumento de possibilidades para o conhecimento da pessoa com Síndrome de Down. Melhorar e dar oportunidade para que crianças com Síndrome de Down cresçam com melhores condições intelectuais é o principal objetivo deste trabalho.</string>
+    <string name="como_jogar_brincando_com_os_sons">Como Jogar Brincando com os sons?</string>
+    <string name="primeiro_passo_brincando_com_sons">1° PASSO: Aperte o botão com o número que deseja.</string>
+    <string name="segundo_passo_brincando_com_sons">2° PASSO: Assim que o botão for apertado, o seu dispositivo emitirá o som com o nome do número.</string>
+    <string name="title_activity_menu_lateral">MenuLateral</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="todo">TODO</string>
+    <string name="navigation_draw_open" />
+    <string name="navigation_draw_close" />
+    <string name="menu_principal">Menu Principal</string>
+    <string name="conte_as_estrelas_e_clique_no_n_mero_que_representa_a_quantidade">Conte as estrelas e clique no número que representa a quantidade:</string>
+
+</resources>

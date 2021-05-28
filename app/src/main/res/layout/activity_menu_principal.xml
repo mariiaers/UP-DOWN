@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?><androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="20dp"
+            android:height="35dp"
+            android:background="#8EDCDC"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:paddingStart="24dp"
+            android:paddingLeft="24dp"
+            android:paddingEnd="25dp"
+            android:paddingRight="25dp"
+            android:shadowColor="#FFFFFF"
+            android:text="@string/menu"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#000000"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#8EDCDC"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:translationY="10dp" />
+
+        <ImageButton
+            android:id="@+id/botaoBrincandoComEscrita"
+            android:layout_width="146dp"
+            android:layout_height="141dp"
+            android:layout_marginStart="215dp"
+            android:layout_marginLeft="215dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/vector_pencil_icon"
+            android:clickable="true"
+            android:contentDescription="@string/lapis"
+            android:cropToPadding="false"
+            android:focusable="true"
+            android:paddingStart="2dp"
+            android:paddingLeft="2dp"
+            android:paddingTop="1dp"
+            android:paddingEnd="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            android:scaleType="centerCrop"
+            android:translationY="50dp" />
+
+
+        <ImageButton
+            android:id="@+id/botaoBrincandoComSons"
+            android:layout_width="145dp"
+            android:layout_height="141dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/novaorelha"
+            android:clickable="true"
+            android:contentDescription="@string/todo"
+            android:focusable="true"
+            android:paddingStart="-2dp"
+            android:paddingLeft="-2dp"
+            android:paddingEnd="-4dp"
+            android:paddingRight="-4dp"
+            android:scaleType="centerCrop"
+            android:translationY="-90dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="215dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="15dp"
+            android:background="#F6FA52"
+            android:fontFamily="sans-serif-black"
+            android:freezesText="false"
+            android:gravity="center"
+            android:text="@string/brincando_com_a_escrita"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textColorHint="#8EDCDC"
+            android:textColorLink="#8EDCDC"
+            android:textSize="15sp"
+            android:translationY="-90dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-50dp"
+            android:background="#8EDCDC"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="@string/brincando_com_os_sons"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textColorHint="#8EDCDC"
+            android:textColorLink="#8EDCDC"
+            android:textSize="15sp"
+            android:translationY="-90dp" />
+
+        <ImageButton
+            android:id="@+id/botaoBrincandoComContagem"
+            android:layout_width="146dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/aaa"
+            android:contentDescription="@string/todo"
+            android:paddingLeft="-2.5dp"
+            android:paddingTop="1dp"
+            android:paddingRight="-2.5dp"
+            android:paddingBottom="1dp"
+            android:scaleType="centerInside"
+            android:translationY="-80dp" />
+
+        <ImageButton
+            android:id="@+id/botaoBrincandoComFormas"
+            android:layout_width="146dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="215dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="-140dp"
+            android:background="@drawable/download"
+            android:clickable="true"
+            android:contentDescription="@string/todo"
+            android:cropToPadding="true"
+            android:focusable="true"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            android:scaleType="centerCrop"
+            android:translationY="-80dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:background="#F6FA52"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="@string/brincando_com_a_contagem"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textColorHint="#8EDCDC"
+            android:textColorLink="#8EDCDC"
+            android:textSize="15sp"
+            android:translationY="-80dp" />
+
+        <Button
+            android:id="@+id/botaoBrincandoComFormas5"
+            android:layout_width="145dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="215dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="-48dp"
+            android:background="#8EDCDC"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="@string/brincando_com_as_formas"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textColorHint="#8EDCDC"
+            android:textColorLink="#8EDCDC"
+            android:textSize="15sp"
+            android:translationY="-80dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/todo"
+            android:paddingBottom="175dp"
+            android:scaleType="centerCrop"
+            android:translationY="-30dp"
+            app:srcCompat="@drawable/dia_da_sindrome_de_down_pessoas_ao_redor_do_simbolo_mundial_24908_1077" />
+
+
+    </LinearLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

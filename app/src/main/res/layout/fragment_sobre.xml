@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_sobre"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bsckground_sobre"
+    android:orientation="horizontal"
+    tools:context=".SobreFragment">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/sobreapp"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:translationY="-180dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/borboleta_png" />
+
+</LinearLayout>
